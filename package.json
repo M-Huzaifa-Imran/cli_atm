@@ -1,0 +1,23 @@
+{
+  "name": "cli_atm",
+  "version": "1.0.0",
+  "description": "This is a cli based ATM",
+  "main": "index.js",
+  "type": "module",
+  "bin": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "M_Huzaifa_Imran",
+  "license": "ISC",
+  "dependencies": {
+    "@inquirer/prompts": "^5.2.1",
+    "inquirer": "^9.2.23"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
